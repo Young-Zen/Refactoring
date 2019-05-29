@@ -31,10 +31,10 @@ public class Customer {
         Enumeration rentals = _rentals.elements();
         String result = "Rental Record for " + getName() + "\n";
         while (rentals.hasMoreElements()) {
-            double thisAmount = 0;
             Rental each = (Rental) rentals.nextElement();
 
-            thisAmount=amountFor(each);
+            //double thisAmount = amountFor(each);
+            double thisAmount = each.getCharge();
 
             //add frequent renter points
             frequentRenterPoints++;
@@ -52,24 +52,7 @@ public class Customer {
         return result;
     }
 
-    private double amountFor(Rental aRental){
-        double result=0;
-        //determine amounts for each line
-        switch (aRental.getMovie().getPriceCode()) {
-            case Movie.REGULAR:
-                result += 2;
-                if (aRental.getDaysRented() > 2)
-                    result += (aRental.getDaysRented() - 2) * 1.5;
-                break;
-            case Movie.NEW_RELEASE:
-                result += aRental.getDaysRented() * 3;
-                break;
-            case Movie.CHILDRENS:
-                result += 1.5;
-                if (aRental.getDaysRented() > 3)
-                    result += (aRental.getDaysRented() - 3) * 1.5;
-                break;
-        }
-        return result;
-    }
+//    private double amountFor(Rental aRental) {
+//        return aRental.getCharge();
+//    }
 }
