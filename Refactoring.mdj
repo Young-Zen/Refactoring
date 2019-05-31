@@ -336,11 +336,30 @@
 									"model": {
 										"$ref": "AAAAAAFrAq58tzUJ1Yo="
 									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFrDiBKC03No2Y=",
+											"_parent": {
+												"$ref": "AAAAAAFrAq58uDUS500="
+											},
+											"model": {
+												"$ref": "AAAAAAFrDiBJ503K0qk="
+											},
+											"font": "Arial;13;0",
+											"left": 325,
+											"top": 157,
+											"width": 97.92529296875,
+											"height": 13,
+											"text": "+getcharge()",
+											"horizontalAlignment": 0
+										}
+									],
 									"font": "Arial;13;0",
 									"left": 320,
 									"top": 152,
 									"width": 107.92529296875,
-									"height": 10
+									"height": 23
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -1204,6 +1223,16 @@
 							"visibility": "private",
 							"type": "int"
 						}
+					],
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFrDiBJ503K0qk=",
+							"_parent": {
+								"$ref": "AAAAAAFrAq58tzUJ1Yo="
+							},
+							"name": "getcharge"
+						}
 					]
 				},
 				{
@@ -1752,90 +1781,90 @@
 								},
 								{
 									"_type": "UMLSeqMessageView",
-									"_id": "AAAAAAFrDlgyMvdRyqE=",
+									"_id": "AAAAAAFrDld0oaRWacA=",
 									"_parent": {
 										"$ref": "AAAAAAFrAuEOrdthTwg="
 									},
 									"model": {
-										"$ref": "AAAAAAFrDlgyMfdQzSk="
+										"$ref": "AAAAAAFrDld0oKRVkhY="
 									},
 									"subViews": [
 										{
 											"_type": "EdgeLabelView",
-											"_id": "AAAAAAFrDlgyMvdSq+U=",
+											"_id": "AAAAAAFrDld0oaRXErQ=",
 											"_parent": {
-												"$ref": "AAAAAAFrDlgyMvdRyqE="
+												"$ref": "AAAAAAFrDld0oaRWacA="
 											},
 											"model": {
-												"$ref": "AAAAAAFrDlgyMfdQzSk="
+												"$ref": "AAAAAAFrDld0oKRVkhY="
 											},
 											"font": "Arial;13;0",
 											"left": 125,
-											"top": 123,
+											"top": 131,
 											"width": 104.76806640625,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10,
 											"hostEdge": {
-												"$ref": "AAAAAAFrDlgyMvdRyqE="
+												"$ref": "AAAAAAFrDld0oaRWacA="
 											},
 											"edgePosition": 1,
 											"text": "2 : *[for all rentals]"
 										},
 										{
 											"_type": "EdgeLabelView",
-											"_id": "AAAAAAFrDlgyMvdT0Fk=",
+											"_id": "AAAAAAFrDld0oaRYYPg=",
 											"_parent": {
-												"$ref": "AAAAAAFrDlgyMvdRyqE="
+												"$ref": "AAAAAAFrDld0oaRWacA="
 											},
 											"model": {
-												"$ref": "AAAAAAFrDlgyMfdQzSk="
+												"$ref": "AAAAAAFrDld0oKRVkhY="
 											},
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": 192,
-											"top": 123,
+											"top": 131,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 25,
 											"hostEdge": {
-												"$ref": "AAAAAAFrDlgyMvdRyqE="
+												"$ref": "AAAAAAFrDld0oaRWacA="
 											},
 											"edgePosition": 1
 										},
 										{
 											"_type": "EdgeLabelView",
-											"_id": "AAAAAAFrDlgyMvdUeyQ=",
+											"_id": "AAAAAAFrDld0oaRZdxA=",
 											"_parent": {
-												"$ref": "AAAAAAFrDlgyMvdRyqE="
+												"$ref": "AAAAAAFrDld0oaRWacA="
 											},
 											"model": {
-												"$ref": "AAAAAAFrDlgyMfdQzSk="
+												"$ref": "AAAAAAFrDld0oKRVkhY="
 											},
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": 158,
-											"top": 124,
+											"top": 132,
 											"height": 13,
 											"alpha": -1.5707963267948966,
 											"distance": 10,
 											"hostEdge": {
-												"$ref": "AAAAAAFrDlgyMvdRyqE="
+												"$ref": "AAAAAAFrDld0oaRWacA="
 											},
 											"edgePosition": 1
 										},
 										{
 											"_type": "UMLActivationView",
-											"_id": "AAAAAAFrDlgyMvdVRZ0=",
+											"_id": "AAAAAAFrDld0oaRa8Ho=",
 											"_parent": {
-												"$ref": "AAAAAAFrDlgyMvdRyqE="
+												"$ref": "AAAAAAFrDld0oaRWacA="
 											},
 											"model": {
-												"$ref": "AAAAAAFrDlgyMfdQzSk="
+												"$ref": "AAAAAAFrDld0oKRVkhY="
 											},
 											"font": "Arial;13;0",
 											"left": 132,
-											"top": 140,
+											"top": 148,
 											"width": 14,
 											"height": 173
 										}
@@ -1847,18 +1876,18 @@
 									"tail": {
 										"$ref": "AAAAAAFrAuZ+xdzATT4="
 									},
-									"points": "138:120;168:120;168:140;145:140",
+									"points": "138:128;168:128;168:148;145:148",
 									"nameLabel": {
-										"$ref": "AAAAAAFrDlgyMvdSq+U="
+										"$ref": "AAAAAAFrDld0oaRXErQ="
 									},
 									"stereotypeLabel": {
-										"$ref": "AAAAAAFrDlgyMvdT0Fk="
+										"$ref": "AAAAAAFrDld0oaRYYPg="
 									},
 									"propertyLabel": {
-										"$ref": "AAAAAAFrDlgyMvdUeyQ="
+										"$ref": "AAAAAAFrDld0oaRZdxA="
 									},
 									"activation": {
-										"$ref": "AAAAAAFrDlgyMvdVRZ0="
+										"$ref": "AAAAAAFrDld0oaRa8Ho="
 									}
 								},
 								{
@@ -1883,7 +1912,7 @@
 											"font": "Arial;13;0",
 											"left": 192,
 											"top": 152,
-											"width": 78.04443359375,
+											"width": 78.7744140625,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10,
@@ -1891,7 +1920,7 @@
 												"$ref": "AAAAAAFrAvHR8uCjhPE="
 											},
 											"edgePosition": 1,
-											"text": "3 : getMovie"
+											"text": "3 : getCharge"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -2239,7 +2268,7 @@
 						},
 						{
 							"_type": "UMLMessage",
-							"_id": "AAAAAAFrDlgyMfdQzSk=",
+							"_id": "AAAAAAFrDld0oKRVkhY=",
 							"_parent": {
 								"$ref": "AAAAAAFrAuEOrdtgD2U="
 							},
@@ -2258,7 +2287,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFrAuEOrdtgD2U="
 							},
-							"name": "getMovie",
+							"name": "getCharge",
 							"source": {
 								"$ref": "AAAAAAFrAuZ+xdy5pR0="
 							},
